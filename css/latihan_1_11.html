@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Halaman HTML saya</title>
+    <link rel="icon" type="img/png" href="icon.png" sizes="16x16" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Belajar membuat HTML">
+    <meta name="keywords" content="Heading dan paragraf">
+    <meta name="author" content="Mahful Yafi Asipattra">
+</head>
+<style>
+    table {
+        width: 100%;
+        height: 100vh;
+        border-collapse: collapse;
+    }
+    td {
+        vertical-align: top;
+    }
+    .sidebar {
+        width: 20%;
+        background-color: #f0f0f0;
+        padding: 10px;
+    }
+    .content {
+        width: 70%;
+        border-left: 1px solid #ccc;
+        padding: 10px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    ul li {
+        margin-bottom: 5px;
+    }
+    ul li a {
+        text-decoration: none;
+        color: blue;
+    }
+    ul li a:hover {
+        text-decoration: underline;
+    }
+</style>
+<body>
+
+    <table>
+        <tr>
+            <!-- Kolom kiri (20%) -->
+            <td class="sidebar">
+                <ul>
+                    <li><a href="latihan_1_1.html" target="iframe_tampil">latihan1_1</a></li>
+                    <li><a href="latihan_1_2.html" target="iframe_tampil">latihan1_2</a></li>
+                    <li><a href="latihan_1_3.html" target="iframe_tampil">latihan1_3</a></li>
+                    <li><a href="latihan_1_4.html" target="iframe_tampil">latihan1_4</a></li>
+                    <li><a href="latihan_1_5.html" target="iframe_tampil">latihan1_5</a></li>
+                    <li><a href="latihan_1_6.html" target="iframe_tampil">latihan1_6</a></li>
+                    <li><a href="latihan_1_7.html" target="iframe_tampil">latihan1_7</a></li>
+                    <li><a href="latihan_1_8.html" target="iframe_tampil">latihan1_8</a></li>
+                    <li><a href="latihan_1_9.html" target="iframe_tampil">latihan1_9</a></li>
+                    <li><a href="latihan_1_10.html" target="iframe_tampil">latihan1_10</a></li>
+                </ul>
+            </td>
+
+            <!-- Kolom kanan (70%) -->
+            <td class="content">
+                <iframe name="iframe_tampil" width="100%" height="500px" src="halaman1.html"></iframe>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
